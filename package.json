@@ -1,7 +1,7 @@
 {
     "name": "nanaz-bot",
     "version": "2.4.0",
-    "description": "not so cool idk maybe cute?",
+    "description": "A multi-purpose Discord bot built with TypeScript",
     "main": "dist/index.js",
     "type": "module",
     "scripts": {
