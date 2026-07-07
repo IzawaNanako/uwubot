@@ -137,6 +137,6 @@ This project relies on community-driven localization.
 * Completed translations on Crowdin automatically trigger a Pull Request to this repository for manual review and merging.
 * For the translations to apply, you must redeploy the bot after pulling the latest changes.
 
-## 📜 License
+## License
 
 This project is licensed under the GPL-3.0 License - see [LICENSE](/LICENSE) for details.
