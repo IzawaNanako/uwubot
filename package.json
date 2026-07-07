@@ -1,53 +1,53 @@
 {
-    "name": "nanaz-bot",
-    "version": "2.4.0",
-    "description": "A multi-purpose Discord bot built with TypeScript",
-    "main": "dist/index.js",
-    "type": "module",
-    "scripts": {
-        "dev": "tsx watch src/index.ts",
-        "build": "tsc && swc src -d dist --strip-leading-paths && node -e \"require('fs-extra').copySync('src/locales', 'dist/locales')\"",
-        "deploy-global": "node dist/deploy-commands-global.js",
-        "deploy-guild": "node dist/deploy-commands-guild.js",
-        "rs-global": "node dist/rs-global-cmds.js",
-        "rs-guild": "node dist/rs-guild-cmds.js",
-        "syncdb": "node dist/syncdb.js"
-    },
-    "keywords": [],
-    "author": "Wither (https://github.com/IzawaNanako)",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/IzawaNanako/nanaz-bot.git"
-    },
-    "license": "ISC",
-    "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
-    },
-    "dependencies": {
-        "@eslint/js": "^9.39.2",
-        "@google/generative-ai": "^0.24.0",
-        "@types/node-schedule": "^2.1.7",
-        "deepl-node": "^1.17.3",
-        "discord.js": "^14.25.1",
-        "dotenv": "^17.2.3",
-        "fs-extra": "^11.3.3",
-        "fuse.js": "^7.1.0",
-        "globals": "^17.0.0",
-        "i18next": "^25.7.4",
-        "i18next-fs-backend": "^2.6.0",
-        "lint-staged": "^16.2.7",
-        "node-schedule": "^2.1.1",
-        "pg": "^8.16.3",
-        "sequelize": "^6.37.8",
-        "typescript": "^5.8.3",
-        "typescript-eslint": "^8.51.0",
-        "uuidv7": "^1.1.0"
-    },
-    "devDependencies": {
-        "@swc/cli": "^0.8.1",
-        "@swc/core": "^1.15.32",
-        "eslint": "^9.24.0",
-        "prettier": "^3.5.3",
-        "tsx": "^4.21.0"
-    }
+  "name": "nanaz-bot",
+  "version": "2.4.0",
+  "description": "A multi-purpose Discord bot built with TypeScript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && swc src -d dist --strip-leading-paths && node -e \"require('fs-extra').copySync('src/locales', 'dist/locales')\"",
+    "deploy-global": "node dist/deploy-commands-global.js",
+    "deploy-guild": "node dist/deploy-commands-guild.js",
+    "rs-global": "node dist/rs-global-cmds.js",
+    "rs-guild": "node dist/rs-guild-cmds.js",
+    "syncdb": "node dist/syncdb.js"
+  },
+  "keywords": [],
+  "author": "Wither (https://github.com/IzawaNanako)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IzawaNanako/nanaz-bot.git"
+  },
+  "license": "ISC",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.39.2",
+    "@google/generative-ai": "^0.24.0",
+    "@types/node-schedule": "^2.1.7",
+    "deepl-node": "^1.17.3",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.3",
+    "fuse.js": "^7.1.0",
+    "globals": "^17.0.0",
+    "i18next": "^25.7.4",
+    "i18next-fs-backend": "^2.6.0",
+    "lint-staged": "^16.2.7",
+    "node-schedule": "^2.1.1",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.8",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.51.0",
+    "uuidv7": "^1.1.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.15.32",
+    "eslint": "^9.24.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.21.0"
+  }
 }
