@@ -1,6 +1,18 @@
 # Nanaz
 
+A multi-purpose Discord bot built with TypeScript.
+
+## Description
+
 Nanaz is a multi-purpose Discord bot built with TypeScript. It provides a comprehensive suite of features including server moderation, seamless text translation, interactive games, and AI-driven conversational capabilities. The bot utilizes Sequelize for flexible database management and is designed to be easily deployable in various environments, with Docker provided as the standard streamlined solution.
+
+## Features
+
+* **AI Conversational Persona:** Integrates the Gemini API to respond to user messages, adhering to a configurable persona. The bot interacts dynamically, with specific contextual awareness granted to the configured bot owner.
+* **Advanced Translation Integration:** Utilizes the DeepL API for high-quality translations. Features include a standard `/translate` command, a context menu translation action, and a `/send` command that translates the user's message into a target language prior to sending.
+* **Interactive Mini-Games:** Users can initiate games such as Rock-Paper-Scissors and Tic-Tac-Toe using the `/challenge` command. Matches can be played against other server members or directly against the bot.
+* **Moderation & Utility Tools:** Includes standard moderation commands and server management utilities.
+* **Multilingual Support:** Fully localized through Crowdin. A GitHub Action workflow automatically synchronizes English source strings to Crowdin upon commit, and opens Pull Requests for newly approved translations.
 
 ## Tech Stack
 
@@ -11,15 +23,9 @@ Nanaz is a multi-purpose Discord bot built with TypeScript. It provides a compre
 * **APIs:** Google Gemini API, DeepL API
 * **Localization:** Crowdin
 
-## Features
+## Getting Started
 
-* **AI Conversational Persona:** Integrates the Gemini API to respond to user messages, adhering to a configurable persona. The bot interacts dynamically, with specific contextual awareness granted to the configured bot owner.
-* **Advanced Translation Integration:** Utilizes the DeepL API for high-quality translations. Features include a standard `/translate` command, a context menu translation action, and a `/send` command that translates the user's message into a target language prior to sending.
-* **Interactive Mini-Games:** Users can initiate games such as Rock-Paper-Scissors and Tic-Tac-Toe using the `/challenge` command. Matches can be played against other server members or directly against the bot.
-* **Moderation & Utility Tools:** Includes standard moderation commands and server management utilities.
-* **Multilingual Support:** Fully localized through Crowdin. A GitHub Action workflow automatically synchronizes English source strings to Crowdin upon commit, and opens Pull Requests for newly approved translations.
-
-## Prerequisites
+### Prerequisites
 
 * A [Discord Developer](https://discord.com/developers/applications) application with a Bot Token and Client ID
 * A [Gemini API Key](https://aistudio.google.com/)
@@ -27,21 +33,19 @@ Nanaz is a multi-purpose Discord bot built with TypeScript. It provides a compre
 * **For Docker Setup:** [Docker](https://www.docker.com/) and Docker Compose
 * **For Manual Setup:** Node.js (v16.x or higher), a package manager (npm/yarn/pnpm), and a configured SQL database (PostgreSQL recommended).
 
-## Installation & Configuration
+### Installation
 
 First, clone this repository:
 
 ```bash
-git clone [https://github.com/IzawaNanako/nanaz-bot.git](https://github.com/IzawaNanako/nanaz-bot.git)
+git clone https://github.com/IzawaNanako/nanaz-bot.git
 cd nanaz-bot
-
 ```
 
 Then, rename the `.env.example` file to `.env` and configure your credentials.
 
 ```bash
 cp .env.example .env
-
 ```
 
 | Variable | Description | Required | Default |
@@ -61,11 +65,11 @@ cp .env.example .env
 | `OWNER_ID` | The Discord User ID of the bot owner (used for AI persona). | No | - |
 | `SUPPORT_SERVER` | An invite link to the bot's support server. | No | - |
 
-*Note: Optional variables can be left blank or as default values, but the keys should not be deleted from the `.env` file.*
+*Optional variables can be left blank or as default values, but the keys should not be deleted from the `.env` file.*
 
-## Deployment
+### Deployment
 
-### Option A: Docker (Recommended)
+#### Option A: Docker (Recommended)
 
 Docker provides a streamlined, one-click startup. The provided configuration also includes an Adminer container for database management, which can be stopped if not needed.
 
@@ -78,10 +82,9 @@ Docker provides a streamlined, one-click startup. The provided configuration als
 
     # Or use Docker Compose directly:
     docker compose up -d --build
-
     ```
 
-### Option B: Manual Setup
+#### Option B: Manual Setup
 
 If you prefer to host the bot on a dedicated environment without Docker, follow these steps:
 
@@ -91,43 +94,38 @@ If you prefer to host the bot on a dedicated environment without Docker, follow 
 
     ```bash
     npm install
-
     ```
 
 4. Build the project:
 
     ```bash
     npm run build
-
     ```
 
 5. Synchronize the database schema:
 
     ```bash
     npm run syncdb
-
     ```
 
 6. Start the bot:
 
     ```bash
     node dist/index.js
-
     ```
 
-## Command Deployment
+### Command Deployment
 
-Regardless of your deployment method (Docker or Manual), you must deploy the application commands to the Discord API for them to appear in your server.
+Regardless of your deployment method, you must deploy the application commands to the Discord API for them to appear in your server.
 
 Run one of the following scripts from your local machine:
 
 ```bash
-# For global deployment (production, updates can take up to an hour)
+# For global deployment (production, update time can vary)
 npm run deploy-global
 
 # For immediate testing in a specific server (Requires GUILD_ID in .env)
 npm run deploy-guild
-
 ```
 
 ## Localization Workflow
@@ -137,3 +135,8 @@ This project relies on community-driven localization.
 * The default language is English (`en-US`).
 * Additions, deletions, or modifications to strings in the English locale files are automatically synchronized to Crowdin via GitHub Actions during a commit.
 * Completed translations on Crowdin automatically trigger a Pull Request to this repository for manual review and merging.
+* For the translations to apply, you must redeploy the bot after pulling the latest changes.
+
+## 📜 License
+
+This project is licensed under the GPL-3.0 License - see [LICENSE](/LICENSE) for details.
