@@ -1,31 +1,31 @@
 {
   "name": "nanaz-bot",
   "version": "2.4.0",
-  "description": "A multi-purpose Discord bot built with TypeScript",
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc && swc src -d dist --strip-leading-paths && node -e \"require('fs-extra').copySync('src/locales', 'dist/locales')\"",
-    "deploy-global": "node dist/deploy-commands-global.js",
-    "deploy-guild": "node dist/deploy-commands-guild.js",
-    "rs-global": "node dist/rs-global-cmds.js",
-    "rs-guild": "node dist/rs-guild-cmds.js",
-    "syncdb": "node dist/syncdb.js"
-  },
+  "description": "A multi-purpose Discord bot built with TypeScript.",
   "keywords": [],
-  "author": "Wither (https://github.com/IzawaNanako)",
+  "homepage": "https://www.saduwub.com/nanaz/",
+  "bugs": {
+    "url": "https://github.com/IzawaNanako/nanaz-bot/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IzawaNanako/nanaz-bot.git"
   },
   "license": "GPL-3.0-only",
+  "author": "Wither (https://github.com/IzawaNanako)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && swc src -d dist --strip-leading-paths && node -e \"require('fs-extra').copySync('src/locales', 'dist/locales')\"",
+    "deploy-global": "node dist/deploy-commands-global.js",
+    "deploy-guild": "node dist/deploy-commands-guild.js",
+    "dev": "tsx watch src/index.ts",
+    "rs-global": "node dist/rs-global-cmds.js",
+    "rs-guild": "node dist/rs-guild-cmds.js",
+    "syncdb": "node dist/syncdb.js"
+  },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "bugs": {
-    "url": "https://github.com/IzawaNanako/nanaz-bot/issues"
-  },
-  "homepage": "https://www.saduwub.com/nanaz/",
   "dependencies": {
     "@eslint/js": "^9.39.2",
     "@google/generative-ai": "^0.24.0",
