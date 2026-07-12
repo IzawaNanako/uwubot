@@ -1,6 +1,6 @@
 {
   "name": "nanaz-bot",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "description": "A multi-purpose Discord bot built with TypeScript.",
   "keywords": [],
   "homepage": "https://www.saduwub.com/nanaz/",
@@ -23,34 +23,26 @@
     "rs-guild": "node dist/rs-guild-cmds.js",
     "syncdb": "node dist/syncdb.js"
   },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "dependencies": {
-    "@eslint/js": "^9.39.2",
     "@google/generative-ai": "^0.24.0",
     "@types/node-schedule": "^2.1.7",
     "deepl-node": "^1.17.3",
-    "discord.js": "^14.25.1",
+    "discord.js": "^14.26.4",
     "dotenv": "^17.2.3",
     "fs-extra": "^11.3.3",
     "fuse.js": "^7.1.0",
-    "globals": "^17.0.0",
-    "i18next": "^25.7.4",
+    "i18next": "^26.3.5",
     "i18next-fs-backend": "^2.6.0",
-    "lint-staged": "^16.2.7",
     "node-schedule": "^2.1.1",
     "pg": "^8.16.3",
     "sequelize": "^6.37.8",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.51.0",
-    "uuidv7": "^1.1.0"
+    "typescript": "^6.0.3",
+    "uuid": "^14.0.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.3",
     "@swc/cli": "^0.8.1",
     "@swc/core": "^1.15.32",
-    "eslint": "^9.24.0",
-    "prettier": "^3.5.3",
     "tsx": "^4.21.0"
   }
 }
