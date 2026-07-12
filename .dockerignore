@@ -3,10 +3,12 @@ dist/
 .env
 .git/
 .github/
+.vscode/
 .env.example
-.prettierrc
 .crowdin.yml
-eslint.config.js
+biome.json
+dprint.json
+tsconfig.json
 README.md
 rsdocker.bat
 start.bat
