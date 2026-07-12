@@ -7,6 +7,6 @@ files: [
     source: "/en-US/*.json",
     translation: "/%locale%/%original_file_name%",
     type: "json",
-    update_option: "update_as_unapproved"
-  }
+    update_option: "update_as_unapproved",
+  },
 ]
