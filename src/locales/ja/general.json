@@ -1,8 +1,8 @@
 {
-    "buttons": {
-        "rematchLabel": "再戦",
-        "supportServerLabel": "支援サーバー",
-        "acceptLabel": "同意する",
-        "declineLabel": "拒否する"
-    }
+  "buttons": {
+    "rematchLabel": "再戦",
+    "supportServerLabel": "支援サーバー",
+    "acceptLabel": "同意する",
+    "declineLabel": "拒否する"
+  }
 }

@@ -1,32 +1,32 @@
 {
-    "global": {
-        "hostedByFooter": "Hosted by Nanaz",
-        "rematchRequestMessage": "<@{{rematchRequester}}> wants to rematch! Do you accept?",
-        "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}> has declined a rematch requested by <@{{rematchRequester}}>.",
-        "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}> didn't respond to a rematch requested by <@{{rematchRequester}}>."
-    },
-    "rockPaperScissors": {
-        "rpsTitle": "Rock Paper Scissors",
-        "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
-        "rockButtonLabel": "🪨 Rock",
-        "paperButtonLabel": "📄 Paper",
-        "scissorsButtonLabel": "✂️ Scissors",
-        "rockVersusRockResult": "Rock + Rock = Pile of rocks!",
-        "paperVersusPaperResult": "Paper + Paper = Stack of paper!",
-        "scissorsVersusScissorsResult": "Scissors + Scissors = Never ending fight!",
-        "rockVersusScissorsResult": "Rock + Scissors = Broken scissors!",
-        "scissorsVersusPaperResult": "Scissors + Paper = Torn paper!",
-        "paperVersusRockResult": "Paper + Rock = Paper ball!",
-        "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}> **Won!**",
-        "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**It's a draw!**",
-        "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nGame ended due to inactivity."
-    },
-    "ticTacToe": {
-        "tttTitle": "Tic Tac Toe",
-        "currentTurnMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\nIt's <@{{currentPlayer}}>'s turn!",
-        "gameEndWinMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}> **Won!**",
-        "gameEndDrawMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**It's a draw!**",
-        "gameEndInactivityMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\nGame ended due to inactivity.",
-        "gameEndBotWinMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **I won! ùwú**"
-    }
+  "global": {
+    "hostedByFooter": "Hosted by Nanaz",
+    "rematchRequestMessage": "<@{{rematchRequester}}> wants to rematch! Do you accept?",
+    "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}> has declined a rematch requested by <@{{rematchRequester}}>.",
+    "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}> didn't respond to a rematch requested by <@{{rematchRequester}}>."
+  },
+  "rockPaperScissors": {
+    "rpsTitle": "Rock Paper Scissors",
+    "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
+    "rockButtonLabel": "🪨 Rock",
+    "paperButtonLabel": "📄 Paper",
+    "scissorsButtonLabel": "✂️ Scissors",
+    "rockVersusRockResult": "Rock + Rock = Pile of rocks!",
+    "paperVersusPaperResult": "Paper + Paper = Stack of paper!",
+    "scissorsVersusScissorsResult": "Scissors + Scissors = Never ending fight!",
+    "rockVersusScissorsResult": "Rock + Scissors = Broken scissors!",
+    "scissorsVersusPaperResult": "Scissors + Paper = Torn paper!",
+    "paperVersusRockResult": "Paper + Rock = Paper ball!",
+    "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}> **Won!**",
+    "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**It's a draw!**",
+    "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nGame ended due to inactivity."
+  },
+  "ticTacToe": {
+    "tttTitle": "Tic Tac Toe",
+    "currentTurnMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\nIt's <@{{currentPlayer}}>'s turn!",
+    "gameEndWinMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}> **Won!**",
+    "gameEndDrawMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**It's a draw!**",
+    "gameEndInactivityMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\nGame ended due to inactivity.",
+    "gameEndBotWinMessage": "**Tic Tac Toe**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **I won! ùwú**"
+  }
 }

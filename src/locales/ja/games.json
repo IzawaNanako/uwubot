@@ -1,32 +1,32 @@
 {
-    "global": {
-        "hostedByFooter": "Nanaz主催",
-        "rematchRequestMessage": "<@{{rematchRequester}}>が再戦を望んでいる！受諾しますか？",
-        "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>は<@{{rematchRequester}}>から要求された再戦を拒否した。",
-        "rematchRequestIgnoredMessage": "<@{{rematchRequester}}>が要求した再戦に、<@{{rematchAccepter}}>が応じなかった。"
-    },
-    "rockPaperScissors": {
-        "rpsTitle": "じゃんけん",
-        "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
-        "rockButtonLabel": "🪨 グー",
-        "paperButtonLabel": "📄 パー",
-        "scissorsButtonLabel": "✂️ チョキ",
-        "rockVersusRockResult": "石＋石＝石の山",
-        "paperVersusPaperResult": "紙＋紙＝紙の束！",
-        "scissorsVersusScissorsResult": "ハサミ＋ハサミ＝終わりなき戦い！",
-        "rockVersusScissorsResult": "ロック＋シザーズ＝壊れたシザーズ！",
-        "scissorsVersusPaperResult": "ハサミ＋紙＝破れた紙！",
-        "paperVersusRockResult": "紙＋石＝紙のボール！",
-        "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**勝った！**",
-        "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**引き分けだ！**",
-        "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\n不活発であるために試合は終わった。"
-    },
-    "ticTacToe": {
-        "tttTitle": "三目並べ",
-        "currentTurnMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n<@{{currentPlayer}}>のターンです！",
-        "gameEndWinMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**勝った！**",
-        "gameEndDrawMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**引き分けだ！**",
-        "gameEndInactivityMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n不活発であるために試合は終わった。",
-        "gameEndBotWinMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **私の勝ちだ！ ùwú**"
-    }
+  "global": {
+    "hostedByFooter": "Nanaz主催",
+    "rematchRequestMessage": "<@{{rematchRequester}}>が再戦を望んでいる！受諾しますか？",
+    "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>は<@{{rematchRequester}}>から要求された再戦を拒否した。",
+    "rematchRequestIgnoredMessage": "<@{{rematchRequester}}>が要求した再戦に、<@{{rematchAccepter}}>が応じなかった。"
+  },
+  "rockPaperScissors": {
+    "rpsTitle": "じゃんけん",
+    "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
+    "rockButtonLabel": "🪨 グー",
+    "paperButtonLabel": "📄 パー",
+    "scissorsButtonLabel": "✂️ チョキ",
+    "rockVersusRockResult": "石＋石＝石の山",
+    "paperVersusPaperResult": "紙＋紙＝紙の束！",
+    "scissorsVersusScissorsResult": "ハサミ＋ハサミ＝終わりなき戦い！",
+    "rockVersusScissorsResult": "ロック＋シザーズ＝壊れたシザーズ！",
+    "scissorsVersusPaperResult": "ハサミ＋紙＝破れた紙！",
+    "paperVersusRockResult": "紙＋石＝紙のボール！",
+    "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**勝った！**",
+    "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**引き分けだ！**",
+    "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\n不活発であるために試合は終わった。"
+  },
+  "ticTacToe": {
+    "tttTitle": "三目並べ",
+    "currentTurnMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n<@{{currentPlayer}}>のターンです！",
+    "gameEndWinMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**勝った！**",
+    "gameEndDrawMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**引き分けだ！**",
+    "gameEndInactivityMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n不活発であるために試合は終わった。",
+    "gameEndBotWinMessage": "**三目並べ**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **私の勝ちだ！ ùwú**"
+  }
 }

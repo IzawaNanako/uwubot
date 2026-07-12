@@ -1,17 +1,17 @@
 {
-    "guildMemberRemove": {
-        "byeEmbedAuthor": "Goodbye, {{username}}!",
-        "byeEmbedTitle": "{{userDisplayName}} has left the server.",
-        "byeEmbedFooter": "I hope to see you somewhere else!"
-    },
-    "guildMemberAdd": {
-        "welcomeEmbedTitle": "Welcome, {{userDisplayName}}!",
-        "welcomeEmbedFooter": "Hi, I'm Nanaz!",
-        "welcomeEmbedWasKicked": "Try harder to not get kicked again, mate.",
-        "welcomeEmbedWasBanned": "Naughty user, hope you have learned your lesson."
-    },
-    "interactionCreate": {
-        "commandUnknownError": "There was an error while executing this command!",
-        "commandDisabled": "This command has been disabled by the server administrators."
-    }
+  "guildMemberRemove": {
+    "byeEmbedAuthor": "Goodbye, {{username}}!",
+    "byeEmbedTitle": "{{userDisplayName}} has left the server.",
+    "byeEmbedFooter": "I hope to see you somewhere else!"
+  },
+  "guildMemberAdd": {
+    "welcomeEmbedTitle": "Welcome, {{userDisplayName}}!",
+    "welcomeEmbedFooter": "Hi, I'm Nanaz!",
+    "welcomeEmbedWasKicked": "Try harder to not get kicked again, mate.",
+    "welcomeEmbedWasBanned": "Naughty user, hope you have learned your lesson."
+  },
+  "interactionCreate": {
+    "commandUnknownError": "There was an error while executing this command!",
+    "commandDisabled": "This command has been disabled by the server administrators."
+  }
 }

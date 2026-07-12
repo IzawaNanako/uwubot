@@ -1,17 +1,17 @@
 {
-    "guildMemberRemove": {
-        "byeEmbedAuthor": "再見，{{username}}！",
-        "byeEmbedTitle": "{{userDisplayName}}離開了伺服器。",
-        "byeEmbedFooter": "希望能在別的地方見到你！"
-    },
-    "guildMemberAdd": {
-        "welcomeEmbedTitle": "歡迎，{{userDisplayName}}！",
-        "welcomeEmbedFooter": "你好，我是Nanaz！",
-        "welcomeEmbedWasKicked": "努力點，別再被踢了，夥計。",
-        "welcomeEmbedWasBanned": "頑皮的使用者，希望你已經學到了教訓。"
-    },
-    "interactionCreate": {
-        "commandUnknownError": "執行此指令時發生錯誤！",
-        "commandDisabled": "This command has been disabled by the server administrators."
-    }
+  "guildMemberRemove": {
+    "byeEmbedAuthor": "再見，{{username}}！",
+    "byeEmbedTitle": "{{userDisplayName}}離開了伺服器。",
+    "byeEmbedFooter": "希望能在別的地方見到你！"
+  },
+  "guildMemberAdd": {
+    "welcomeEmbedTitle": "歡迎，{{userDisplayName}}！",
+    "welcomeEmbedFooter": "你好，我是Nanaz！",
+    "welcomeEmbedWasKicked": "努力點，別再被踢了，夥計。",
+    "welcomeEmbedWasBanned": "頑皮的使用者，希望你已經學到了教訓。"
+  },
+  "interactionCreate": {
+    "commandUnknownError": "執行此指令時發生錯誤！",
+    "commandDisabled": "This command has been disabled by the server administrators."
+  }
 }

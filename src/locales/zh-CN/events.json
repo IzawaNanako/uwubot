@@ -1,17 +1,17 @@
 {
-    "guildMemberRemove": {
-        "byeEmbedAuthor": "再见，{{username}}！",
-        "byeEmbedTitle": "{{userDisplayName}} 离开了服务器。",
-        "byeEmbedFooter": "我希望能在别的地方见到你！"
-    },
-    "guildMemberAdd": {
-        "welcomeEmbedTitle": "欢迎您，{{userDisplayName}}！",
-        "welcomeEmbedFooter": "你好，我是Nanaz！",
-        "welcomeEmbedWasKicked": "加把劲，别再被踢了，伙计。",
-        "welcomeEmbedWasBanned": "淘气的用户，希望你已经吸取教训。"
-    },
-    "interactionCreate": {
-        "commandUnknownError": "执行此命令时发生错误！",
-        "commandDisabled": "This command has been disabled by the server administrators."
-    }
+  "guildMemberRemove": {
+    "byeEmbedAuthor": "再见，{{username}}！",
+    "byeEmbedTitle": "{{userDisplayName}} 离开了服务器。",
+    "byeEmbedFooter": "我希望能在别的地方见到你！"
+  },
+  "guildMemberAdd": {
+    "welcomeEmbedTitle": "欢迎您，{{userDisplayName}}！",
+    "welcomeEmbedFooter": "你好，我是Nanaz！",
+    "welcomeEmbedWasKicked": "加把劲，别再被踢了，伙计。",
+    "welcomeEmbedWasBanned": "淘气的用户，希望你已经吸取教训。"
+  },
+  "interactionCreate": {
+    "commandUnknownError": "执行此命令时发生错误！",
+    "commandDisabled": "This command has been disabled by the server administrators."
+  }
 }

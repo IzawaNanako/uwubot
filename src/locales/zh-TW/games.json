@@ -1,32 +1,32 @@
 {
-    "global": {
-        "hostedByFooter": "由Nanaz主持",
-        "rematchRequestMessage": "<@{{rematchRequester}}>想要重賽！您接受嗎？",
-        "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>拒絕了<@{{rematchRequester}}>的重賽要求。",
-        "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}>沒有回應<@{{rematchRequester}}>的重賽要求。"
-    },
-    "rockPaperScissors": {
-        "rpsTitle": "剪刀石頭布",
-        "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
-        "rockButtonLabel": "🪨 石頭",
-        "paperButtonLabel": "📄 布",
-        "scissorsButtonLabel": "✂️ 剪刀",
-        "rockVersusRockResult": "石頭 + 石頭 = 一堆石頭！",
-        "paperVersusPaperResult": "紙 + 紙 = 一疊紙！",
-        "scissorsVersusScissorsResult": "剪刀 + 剪刀 = 永無止境的戰鬥！",
-        "rockVersusScissorsResult": "石頭 + 剪刀 = 破剪刀！",
-        "scissorsVersusPaperResult": "剪刀 + 紙 = 撕破的紙！",
-        "paperVersusRockResult": "紙 + 石頭 = 紙球！",
-        "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**勝利！**",
-        "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**平手！**",
-        "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}\n\n遊戲因閒置時間過長而結束。"
-    },
-    "ticTacToe": {
-        "tttTitle": "井字遊戲",
-        "currentTurnMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n輪到<@{{currentPlayer}}>了！",
-        "gameEndWinMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**勝利！**",
-        "gameEndDrawMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**平手！**",
-        "gameEndInactivityMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n遊戲因無活動而結束。",
-        "gameEndBotWinMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **我贏了！ ùwú**"
-    }
+  "global": {
+    "hostedByFooter": "由Nanaz主持",
+    "rematchRequestMessage": "<@{{rematchRequester}}>想要重賽！您接受嗎？",
+    "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>拒絕了<@{{rematchRequester}}>的重賽要求。",
+    "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}>沒有回應<@{{rematchRequester}}>的重賽要求。"
+  },
+  "rockPaperScissors": {
+    "rpsTitle": "剪刀石頭布",
+    "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
+    "rockButtonLabel": "🪨 石頭",
+    "paperButtonLabel": "📄 布",
+    "scissorsButtonLabel": "✂️ 剪刀",
+    "rockVersusRockResult": "石頭 + 石頭 = 一堆石頭！",
+    "paperVersusPaperResult": "紙 + 紙 = 一疊紙！",
+    "scissorsVersusScissorsResult": "剪刀 + 剪刀 = 永無止境的戰鬥！",
+    "rockVersusScissorsResult": "石頭 + 剪刀 = 破剪刀！",
+    "scissorsVersusPaperResult": "剪刀 + 紙 = 撕破的紙！",
+    "paperVersusRockResult": "紙 + 石頭 = 紙球！",
+    "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**勝利！**",
+    "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**平手！**",
+    "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}\n\n遊戲因閒置時間過長而結束。"
+  },
+  "ticTacToe": {
+    "tttTitle": "井字遊戲",
+    "currentTurnMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n輪到<@{{currentPlayer}}>了！",
+    "gameEndWinMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**勝利！**",
+    "gameEndDrawMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**平手！**",
+    "gameEndInactivityMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n遊戲因無活動而結束。",
+    "gameEndBotWinMessage": "**井字遊戲**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **我贏了！ ùwú**"
+  }
 }

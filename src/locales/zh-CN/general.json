@@ -1,8 +1,8 @@
 {
-    "buttons": {
-        "rematchLabel": "重赛",
-        "supportServerLabel": "支持服务器",
-        "acceptLabel": "接受",
-        "declineLabel": "拒绝"
-    }
+  "buttons": {
+    "rematchLabel": "重赛",
+    "supportServerLabel": "支持服务器",
+    "acceptLabel": "接受",
+    "declineLabel": "拒绝"
+  }
 }

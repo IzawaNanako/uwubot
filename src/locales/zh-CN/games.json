@@ -1,32 +1,32 @@
 {
-    "global": {
-        "hostedByFooter": "由Nanaz主持",
-        "rematchRequestMessage": "<@{{rematchRequester}}>想要重赛！你接受吗？",
-        "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>拒绝了<@{{rematchRequester}}>的重赛请求.",
-        "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}>没有回应<@{{rematchRequester}}>的重赛请求."
-    },
-    "rockPaperScissors": {
-        "rpsTitle": "石头剪刀布",
-        "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
-        "rockButtonLabel": "🪨 石头",
-        "paperButtonLabel": "📄 布",
-        "scissorsButtonLabel": "✂️ 剪刀",
-        "rockVersusRockResult": "石头 + 石头 = 一堆石头！",
-        "paperVersusPaperResult": "纸 + 纸 = 一叠纸！",
-        "scissorsVersusScissorsResult": "剪刀 + 剪刀 = 永无休止的战斗！",
-        "rockVersusScissorsResult": "石头 + 剪刀 = 破剪刀！",
-        "scissorsVersusPaperResult": "剪刀 + 纸 = 撕破的纸！",
-        "paperVersusRockResult": "纸 + 石头 = 纸球！",
-        "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**获胜！**",
-        "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**平局！**",
-        "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\n游戏因闲置时间过长而结束。"
-    },
-    "ticTacToe": {
-        "tttTitle": "井字游戏",
-        "currentTurnMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n轮到<@{{currentPlayer}}>了！",
-        "gameEndWinMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**获胜！**",
-        "gameEndDrawMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**平局！**",
-        "gameEndInactivityMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n游戏因闲置时间过长而结束。",
-        "gameEndBotWinMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **我赢了！ ùwú**"
-    }
+  "global": {
+    "hostedByFooter": "由Nanaz主持",
+    "rematchRequestMessage": "<@{{rematchRequester}}>想要重赛！你接受吗？",
+    "rematchRequestDeclinedMessage": "<@{{rematchAccepter}}>拒绝了<@{{rematchRequester}}>的重赛请求.",
+    "rematchRequestIgnoredMessage": "<@{{rematchAccepter}}>没有回应<@{{rematchRequester}}>的重赛请求."
+  },
+  "rockPaperScissors": {
+    "rpsTitle": "石头剪刀布",
+    "makeChoiceMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\nMake your choice!",
+    "rockButtonLabel": "🪨 石头",
+    "paperButtonLabel": "📄 布",
+    "scissorsButtonLabel": "✂️ 剪刀",
+    "rockVersusRockResult": "石头 + 石头 = 一堆石头！",
+    "paperVersusPaperResult": "纸 + 纸 = 一叠纸！",
+    "scissorsVersusScissorsResult": "剪刀 + 剪刀 = 永无休止的战斗！",
+    "rockVersusScissorsResult": "石头 + 剪刀 = 破剪刀！",
+    "scissorsVersusPaperResult": "剪刀 + 纸 = 撕破的纸！",
+    "paperVersusRockResult": "纸 + 石头 = 纸球！",
+    "gameEndWinMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n👑 <@{{winner}}>**获胜！**",
+    "gameEndDrawMessage": "{{leftPlayerEmoji}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerEmoji}}\n\n**平局！**",
+    "gameEndInactivityMessage": "<@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}>\n\n游戏因闲置时间过长而结束。"
+  },
+  "ticTacToe": {
+    "tttTitle": "井字游戏",
+    "currentTurnMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n轮到<@{{currentPlayer}}>了！",
+    "gameEndWinMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 <@{{winner}}>**获胜！**",
+    "gameEndDrawMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n**平局！**",
+    "gameEndInactivityMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n游戏因闲置时间过长而结束。",
+    "gameEndBotWinMessage": "**井字游戏**\n{{leftPlayerSymbol}} <@{{leftPlayer}}> ⚔️ <@{{rightPlayer}}> {{rightPlayerSymbol}}\n\n👑 **我赢了！ ùwú**"
+  }
 }
