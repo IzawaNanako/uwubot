@@ -8,7 +8,6 @@ dist/
 .crowdin.yml
 biome.json
 dprint.json
-tsconfig.json
 README.md
 rsdocker.bat
 start.bat
