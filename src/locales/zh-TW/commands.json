@@ -33,6 +33,7 @@
   },
   "translate": {
     "translatedToMessage": "_已翻譯成{{translatedLanguage}}。_\n\n{{translatedMessage}}",
+    "translatedToFallback": "_Couldn't find target language, check your spellings? Fell back to {{fallbackLanguage}}._\n\n{{translatedMessage}}",
     "invalidLanguageError": "無效的語言。",
     "invalidMessageError": "無效的訊息。"
   },
