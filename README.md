@@ -35,18 +35,14 @@ Nanaz is a multi-purpose Discord bot built with TypeScript. It provides a compre
 
 ### Installation
 
-First, clone this repository:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/IzawaNanako/nanaz-bot.git
-cd nanaz-bot
-```
+    ```bash
+    git clone https://github.com/IzawaNanako/nanaz-bot.git
+    cd nanaz-bot
+    ```
 
-Then, rename the `.env.example` file to `.env` and configure your credentials.
-
-```bash
-cp .env.example .env
-```
+2. Rename the `.env.example` file to `.env` and populate it with your credentials:
 
 | Variable         | Description                                                 | Required | Default    |
 | ---------------- | ----------------------------------------------------------- | -------- | ---------- |
