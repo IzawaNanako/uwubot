@@ -1,18 +1,30 @@
 import 'dotenv/config.js';
+import { readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import type { ApplicationCommand } from 'discord.js';
 import { REST, Routes } from 'discord.js';
-import { readdirSync } from 'fs';
-import { join } from 'path';
-import { pathToFileURL } from 'url';
 
 const clientId = process.env.CLIENT_ID;
 const token = process.env.TOKEN;
 
 if (!clientId || !token) {
-    throw new Error('Client ID or token not found.');
+	throw new Error('Client ID or token not found.');
 }
 
-const commands = [] as ApplicationCommand[];
+function isCommandArray(data: unknown): data is ApplicationCommand[] {
+	if (!Array.isArray(data)) {
+		return false;
+	}
+	if (data.length === 0) {
+		return true;
+	}
+
+	const firstItem = data[0];
+	return typeof firstItem === 'object' && firstItem !== null && 'id' in firstItem && 'name' in firstItem;
+}
+
+const commands: ApplicationCommand[] = [];
 const foldersPath = join('dist/commands');
 const commandFolders = readdirSync(foldersPath);
 
@@ -21,36 +33,38 @@ for (const folder of commandFolders) {
 	const commandFiles = readdirSync(commandsPath);
 	for (const file of commandFiles) {
 		const filePath = join(commandsPath, file);
-        const filePathURL = pathToFileURL(`./${filePath}`);
+		const filePathURL = pathToFileURL(`./${filePath}`);
 		const command = await import(`${filePathURL}`);
 		if ('data' in command && 'execute' in command && command.data.name !== 'dev') {
 			commands.push(command.data.toJSON());
+			continue;
 		}
-        else if (command.data.name === 'dev') {
-            continue;
-        }
-        else {
-			console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
+		if (command.data.name === 'dev') {
+			continue;
 		}
+		console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
 	}
 }
 
-async function reloadGlobalCommands(clientId: string, token: string) {
+async function reloadGlobalCommands(clientId: string, token: string): Promise<void> {
 	try {
 		console.log(`Started reloading ${commands.length} application commands.`);
 
-        const rest = new REST().setToken(token);
+		const rest = new REST().setToken(token);
 
 		const data = await rest.put(
 			Routes.applicationCommands(clientId),
 			{
-                body: commands,
-            },
-		) as ApplicationCommand[];
+				body: commands,
+			},
+		);
+
+		if (!isCommandArray(data)) {
+			throw new Error('Discord API returned unexpected data format for commands!');
+		}
 
 		console.log(`Successfully reloaded ${data.length} application commands.`);
-	}
-    catch (error) {
+	} catch (error) {
 		console.error(error);
 	}
 }
