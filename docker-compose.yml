@@ -43,4 +43,3 @@ volumes:
 networks:
   nanaz-network:
     driver: bridge
-  
